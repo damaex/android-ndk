@@ -55,4 +55,4 @@ RUN sdkmanager \
   "patcher;v4"
 
 # install ndk-bundle (newest ndk)
-RUN sdkmanager "ndk-bundle"
+RUN sdkmanager "ndk-bundle" "ndk;21.4.7075529"
